@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    width: 70vw;
+    height: 10vh;
+    resize: none;
+    cursor: alias;
+}
+
+.contenedor_teclado {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    gap: 1vh;
+    margin: 2vh auto;
+}
+
+.capa {
+    display: flex;
+    gap: 1vw;
+    justify-content: center;
+    width: 100%;
+}
+
+.tecla {
+    background-color: #222;
+    color: #FFF;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* font-size: 5vh; */
+}
+
+.tecla:hover {
+    background-color: rgb(100, 98, 98);
+
+}
+
+.tecla_normal {
+    width: 6vw;
+    height: 7vh;
+}
+
+.tecla_espacio {
+    width: 40vw;
+    height: 7vh;
+}
+
+.tecla_shift {
+    width: 6vw;
+    height: 7vh;
+    background-color: #222;
+    color: #FFF;
+}
